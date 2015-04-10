@@ -5,3 +5,44 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0
+}
+
+h1 {
+
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  float: left;
+  display: inline-block;
+}
+
+.test {
+  float: right;
+  display: inline-block;
+  clear: left;
+}
+
+.info {
+  clear: both;
+  overflow: hidden;
+}
+
+dd {
+  margin: 0;
+}
+
+
+footer {
+  clear: both;
+}
