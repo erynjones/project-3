@@ -7,24 +7,26 @@ html {
 }
 
 body {
-  margin: 0
+  margin: 0;
   min-height: 100vh;
   padding-bottom: 44px;
 }
 
 img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .banner {
   padding: calc(7em + 20vw) 0 0;
   background: url("../images/layout.jpg") center center / cover no-repeat;
-  white-space: nowrap;
+  margin: 0;
 }
 
 .first {
   background-color: #894C22;
   padding: 1em;
+  margin: 0;
 }
 
 h1 {
@@ -34,6 +36,7 @@ h1 {
 
 header {
   background-color: #754C29;
+  padding: 1em, 0em, 0em, 0em;
 }
 
 nav li {
@@ -60,16 +63,31 @@ nav ol {
   width: 100%;
 }
 
+a:hover {
+  background-color: #894C22;
+  opacity: .75;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 h2 {
   text-align: center;
+  color: white;
+  margin: 0;
+}
+
+.carp {
   padding: 1em;
+  margin: 0;
 }
-.info {
-  padding: 0;
-  overflow: hidden;
-}
+
 h3 {
   text-align: center;
+  margin: 1;
 }
 
 .all {
@@ -104,6 +122,7 @@ h3 {
 .info {
   background-color: #CE802C;
   padding: 1em;
+  text-align: center;
 }
 
 em {
@@ -112,6 +131,11 @@ em {
 
 dd {
   margin: 0;
+  text-align: center;
+}
+
+dt {
+  text-align: center;
 }
 
 footer {
