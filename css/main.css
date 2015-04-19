@@ -8,6 +8,8 @@ html {
 
 body {
   margin: 0
+  min-height: 100vh;
+  padding-bottom: 44px;
 }
 
 img {
@@ -15,13 +17,23 @@ img {
 }
 
 .banner {
-  padding: calc(2em + 20vw) 0 0;
+  padding: calc(7em + 20vw) 0 0;
   background: url("../images/layout.jpg") center center / cover no-repeat;
+  white-space: nowrap;
+}
+
+.first {
+  background-color: #894C22;
+  padding: 1em;
 }
 
 h1 {
   color: white;
   text-align: center;
+}
+
+header {
+  background-color: #754C29;
 }
 
 nav li {
@@ -38,7 +50,7 @@ nav a {
   margin: 0;
   padding: 0.5em 0.5em 0.5em 0.5em;
   color: white;
-  background-color: brown;
+  background-color: #B78A4B;
   text-decoration: none;
 }
 
@@ -48,13 +60,50 @@ nav ol {
   width: 100%;
 }
 
-
 h2 {
+  text-align: center;
+  padding: 1em;
+}
+.info {
+  padding: 0;
+  overflow: hidden;
+}
+h3 {
   text-align: center;
 }
 
-h3 {
-  text-align: center;
+.all {
+  background-color: #B78A4B;
+}
+
+.bread {
+  background-color: #B78A4B;
+  padding: 1em;
+}
+
+.cookies {
+  background-color: #BC7D31;
+  padding: 1em;
+}
+
+.pastries {
+  background-color: #CE802C;
+  padding: 1em;
+}
+
+.sandwhich {
+  background-color: #95653F;
+  padding: 1em;
+}
+
+.test {
+  background-color: #894C22;
+  padding: 1em;
+}
+
+.info {
+  background-color: #CE802C;
+  padding: 1em;
 }
 
 em {
@@ -67,4 +116,7 @@ dd {
 
 footer {
   clear: both;
+  background-color: #754C29;
+  padding: 1em;
+  text-align: center;
 }
