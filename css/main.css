@@ -14,6 +14,16 @@ img {
   width: 100%;
 }
 
+.banner {
+  padding: calc(2em + 20vw) 0 0;
+  background: url("../images/layout.jpg") center center / cover no-repeat;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
 nav li {
   display: block;
   float: left;
@@ -38,9 +48,6 @@ nav ol {
   width: 100%;
 }
 
-h1 {
-
-}
 
 h2 {
   text-align: center;
@@ -50,25 +57,13 @@ h3 {
   text-align: center;
 }
 
-h4 {
-  float: left;
-  display: block;
-}
-
-.test {
-  float: right;
-  display: block;
-}
-
-.info {
-  clear: both;
-  overflow: hidden;
+em {
+  font-weight: bold;
 }
 
 dd {
   margin: 0;
 }
-
 
 footer {
   clear: both;
