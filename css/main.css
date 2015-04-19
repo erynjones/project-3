@@ -9,6 +9,11 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
+  padding-bottom: 44px;
+}
+
+p {
+  font-size: 1rem;
 }
 
 img {
@@ -31,6 +36,7 @@ img {
 h1 {
   color: white;
   text-align: center;
+  font-size: 2.5rem;
 }
 
 header {
@@ -54,6 +60,7 @@ nav a {
   color: white;
   background-color: #B78A4B;
   text-decoration: none;
+  text-align: center;
 }
 
 nav ol {
@@ -77,16 +84,18 @@ h2 {
   text-align: center;
   color: white;
   margin: 0;
+  font-size: 2rem;
 }
 
 .carp {
-  padding: 1em;
+  padding: .5em;
   margin: 0;
 }
 
 h3 {
   text-align: center;
   margin: 1;
+  font-size: 1.5rem;
 }
 
 .all {
