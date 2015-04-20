@@ -14,6 +14,7 @@ body {
 
 p {
   font-size: 1rem;
+  font-family: arial;
 }
 
 img {
@@ -37,6 +38,7 @@ h1 {
   color: white;
   text-align: center;
   font-size: 2.5rem;
+  font-family: 'Dancing Script', cursive;
 }
 
 header {
@@ -56,11 +58,12 @@ nav a {
   border-top: 1px solid black;
   border-left: 1px solid black;
   margin: 0;
-  padding: 0.5em 0.5em 0.5em 0.5em;
+  padding: 0.4em 0.4em 0.4em 0.4em;
   color: white;
   background-color: #B78A4B;
   text-decoration: none;
   text-align: center;
+  font-family: arial;
 }
 
 nav ol {
@@ -85,6 +88,7 @@ h2 {
   color: white;
   margin: 0;
   font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
 }
 
 .carp {
@@ -96,6 +100,7 @@ h3 {
   text-align: center;
   margin: 1;
   font-size: 1.5rem;
+  font-family: 'Dancing Script', cursive;
 }
 
 .all {
